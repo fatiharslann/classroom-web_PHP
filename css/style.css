@@ -1,0 +1,511 @@
+/*header*/
+header{
+	font-size: 13px;
+
+}
+.navbar-nav .nav-link {
+	color:white !important;
+	margin-left: 30px;
+	font-weight: bold;
+}
+.navbar{
+		z-index: 1;
+}
+.search{
+	width: 100%;
+}
+.navbar-nav{
+	margin-right: 100px;
+}
+nav{
+	position: fixed;
+
+}
+i{
+	float: left;
+	color: white;
+
+}
+.headerIcerik{
+	float: left;
+	margin-top: -15px !important;
+	margin-left: 20px;
+}
+.bildirimSayisi{
+    background-color: red;
+    padding: 0.1px 4px 0.1px 4px;
+    border-radius: 100%;
+    font-size: 9px;
+    margin-left: -10px;
+}
+.fa{
+	 font-size: 15px !important;
+}
+.dropdown-toggle::after {
+    display:none
+}
+.form-inline .form-control{
+	border-radius: 50px;
+	height: 30px;
+	width: 100%;
+}
+.btn-outline-success{
+	border-radius: 50px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+
+}
+.navbar{
+	padding: 4px;
+}
+.navbar-toggler {
+  border: none;
+  float: right !important;
+}
+.navbar-nav .dropdown-menu{
+	position: absolute !important;
+	margin-left: 7px;
+}
+.cikisYap, .sifreDegistir{
+	border: 1px solid gray;
+	padding: 8px;
+	margin-bottom: 50px;
+	border-radius: 15px;
+}
+.cikisYap:hover{
+	border: 1px solid #343a40;
+	box-shadow: 0px 0px 111px 0.5px #343a40;
+	background-color: #343a40;
+	color: white;
+}
+.sifreDegistir:hover{
+	border: 1px solid #80aeb2;
+	box-shadow: 0px 0px 111px 0.5px #80aeb2;
+	background-color: #80aeb2;
+	color: white;
+}
+.profil i{
+	display: none;
+}
+.search input {
+	font-size: 12px;
+}
+header ul li div {
+    display: none;
+    background-color: #edf2fa;
+    width: 180px;
+    height: auto;
+    position: absolute;
+    top: 27px !important;
+    left: 40px !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+header ul li > div {
+    top: auto;
+    left: auto;
+}
+header ul li:hover div {
+  display: block;
+}
+header ul li:hover div, ul li.over div{
+    display: block;
+  }
+/*body*/
+body{
+	font-family: Poppins, sans-serif;
+	color: #404040;
+	font-size: 15px;
+	background-color: #edf1f5;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Poppins, sans-serif;
+}
+/* content */
+.profil_foto,.profil_foto2{
+	border-radius:100%;
+}
+.profil_foto{
+	margin-bottom: 30px;
+}
+
+.profil {
+	box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    position: fixed;
+    width: 240px;
+    top: 0px;
+    right: 0px;
+    padding: 50px 10px 0px 10px;
+    background: #ffffff;
+    z-index: 99;
+    height: 100%;
+}
+.adsoyad{
+	font-weight: bold;
+	font-size: 18px;
+}
+.content{
+	background-color: white;
+	margin-top: 20px;
+	padding: 20px;
+}
+.paylasan_kullanici{
+	font-weight: bold;
+}
+.tarih{
+	color: gray;
+	font-size: 12px;
+}
+.paylasim,.yorum{
+	font-family: Poppins, sans-serif;
+	font-size: 14px;
+}
+.contentSol,.contentOrta{
+	margin-top:50px;
+}
+.goruldu{
+	font-family: Poppins, sans-serif;
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+	float: right;
+}
+hr{
+	margin-top: 10px;
+}
+.baslik_yorumlar{
+	font-family: Poppins, sans-serif;
+	font-size: 14px;
+	color: #ababab;
+	font-weight: bold;
+}
+.yorum_kullanici{
+	float: left;
+	margin-right: 10px;
+	font-weight: bold;
+	font-family: Poppins, sans-serif;
+	font-size: 14px;
+}
+.yorumlar{
+	background-color: #edf1f5;
+	padding: 15px;
+	border-radius: 10px;
+}
+.yorumYap{
+	color:darkblue;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Poppins, sans-serif;
+}
+#yorumYap,#mesaj{
+	overflow: hidden;
+	border-radius: 10px;
+	resize: none;
+	max-height: 100px;
+	padding-left: 12px;
+	padding-top: 5px;
+}
+.fileUpload {
+ position: relative;
+ overflow: hidden;
+ height: 30px;
+ width: 35px;
+ text-align: center;
+ float: left;
+}
+.fileUpload input.upload {
+ position: absolute;
+ top: 0;
+ right: 0;
+ margin: 0;
+ padding: 0;
+ font-size: 20px;
+ cursor: pointer;
+ opacity: 0;
+ filter: alpha(opacity=0);
+ height: 100%;
+ text-align: center;
+}
+#uploadFile{
+	border: none;
+	background-color: white;
+	margin-top: 3px;
+	font-size: 12px;
+	}
+.fileUpload img{
+	margin-left: 10px;
+}
+.paylasinput input[type="file"]{
+	color: red;
+
+}
+.paylasbutton{
+	font-size: 12px;
+	margin-right: 20px;
+	border-radius: 20px;
+}
+.paylasimYap{
+	height: auto;
+	width: auto;
+	background-color: white;
+	margin-top: 50px;
+	border-radius: 30px;
+	padding: 8px;
+}
+.paylasimYap textarea{
+	overflow: hidden;
+	border: none;
+	font-size: 13px;
+	font-family: Poppins, sans-serif;
+	resize: none;
+}
+.paylasimYap textarea:focus {
+    outline: none !important;
+    border:none;
+    box-shadow: none;
+}
+.adSoyad{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Poppins, sans-serif;
+	margin-bottom: 30px;
+}
+.profil span,.tarih{
+	font-style: italic;
+}
+.duyurubaslik,.akademisyen_baslik
+{
+	background-color: #e1e4e5;
+    padding: 5px;
+    font-size: 16px ;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.akademisyen_baslik span{
+	font-size: 16px !important;
+}
+.akademisyenler img{
+	float: left;
+}
+ul{
+	list-style-type:none;
+	text-decoration: none;
+	margin-left: -20px;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+a{
+	color: black;
+	font-size: 13px;
+	font-family: Poppins, sans-serif;
+}
+.akademisyenler span{
+	font-size: 11px;
+	font-family: Poppins, sans-serif;
+}
+.yeni{
+	font-size: 10px;
+	font-family: Poppins, sans-serif;
+	font-weight: bold;
+
+	margin-top: 3px;
+	color: #79ec79;
+}
+
+/*profile*/
+.profile,.aramaSonuc{
+	background-color: white;
+	margin-top: 100px;
+	padding: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+.profilBaslik{
+	background-color: #edf1f5;
+	top:0px;
+	right: 0px;
+	padding-left: 40px;
+
+}
+.nav-tabs{
+	margin-left: 0px;
+	margin-top: -22px;
+
+}
+.nav-tabs>li>a{
+    color: #555;
+    cursor: default;
+    background-color: transparent;
+    padding:15px;
+    border-bottom-color: transparent;
+    border-radius: 4px 4px 0 0;
+}
+ .nav-tabs>li>a:focus{
+ 	color: #555;
+    cursor: default;
+    background-color: #fff;
+ }
+.tab-pane{
+	padding-left: 30px;
+}
+.tab-content div{
+	padding: 20px;
+}
+.takip,.takip:hover,.takipEt,.takipEt:hover{
+	float: right;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	background-color: red;
+	padding: 5px;
+	border-radius: 13px;
+	color: white;
+}
+.takipEt,.takipEt:hover{
+	background-color: green !important;
+	padding: 8px;
+}
+
+.takipEttiklerin span,.yeniAcilan span{
+	font-size: 13px;
+	font-family: Poppins, sans-serif;
+}
+.takipEttiklerin img,.yeniAcilan img,.gorenKisiler img{
+	border-radius: 100%;
+	margin-right: 10px;
+	margin-top: -5px;
+	float: left;
+}
+.grupAdi{
+	font-weight: bold;
+}
+.tarafindan,.gorenler{
+	float: left;
+}
+.takipEttiklerin hr,.yeniAcilan hr{
+	margin-top: 30px;
+	margin-bottom: -10px;
+}
+.gorenKisiler hr{
+	margin-top: 20px;
+}
+.modal-content .form-group{
+	padding: 0px !important;
+}
+.btn-info{
+	float: right;
+	margin-bottom:15px;
+	height: 30px;
+	font-size: 12px;
+	padding-top: 5px;
+}
+.btn-danger,.btn-success{
+	font-size: 12px;
+}
+/*tum akademisyenler*/
+#tumakademisyenler{
+	margin-top: 20px !important;
+	margin-left: 5%;
+	width: 100%;
+}
+#tumduyurular,#duyuruekle{
+	margin-right: 15%;
+	width: 100%;
+	margin-top: 10px !important;
+}
+/*Gruplogo*/
+.grup_logo{
+	margin-bottom: 10px;
+}
+/*Grup */
+.grupUyeleri:hover{
+	background-color: #461223;
+	font-weight: normal;
+	border-color: white;
+}
+.grupUyeleri{
+	font-size: 13px;
+	border-color: #461223;
+	color: #461223;
+	font-weight: bold;
+	box-shadow: 0px 0px 11px 0.5px #124623;
+}
+
+/*Kilitli*/
+.kilitli{
+	background-color: white;
+	margin-bottom: 5%;
+	text-align: center;
+	padding: 5%;
+}
+
+/*kilitli bitti*/
+/*arama*/
+.aramaSonuc .nav-tabs {
+	margin-top: 0px !important;
+}
+/* mesaj */
+.mesajGonderen,.mesajAtan{
+	padding: 10px !important;
+	height: auto;
+	border-radius: 10px;
+	word-wrap:break-word;
+	margin-bottom: 5px;
+}
+.mesajGonderen{
+	background:#f4efef;
+}
+.mesajAtan{
+	background-color: #bfe8f8;
+}
+.mesajGonderen b,.mesajAtan b{
+	margin-right: 10px;
+	font-size: 13px;
+}
+.mesajAtilanKisi{
+	background-color: gray;
+	padding: 1px !important;
+	color: white;
+	margin-bottom: 10px;
+	top: 0px;
+}
+#mesajAt .yeniAcilan{
+	padding: 0px !important ;
+}.mesaj,#kisi{
+	overflow-x: hidden; overflow-y: scroll;
+	height: 300px;
+}
+.mesajForm textarea, .mesajForm input{
+	margin-top: 30px;
+}
+.mesajForm{
+	margin-top: 30px;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-top-color: #eeecec;
+	float: left;
+	padding: 0px !important
+}
+/* profilayrinti*/
+.kullaniciBilgisi{
+	background-color: #e1e4e5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+.profil_foto4{
+}
+/*Admin css */
+tbody{
+	background-color: white;
+}
+
+/*Admin css son */

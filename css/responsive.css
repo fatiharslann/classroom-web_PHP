@@ -1,0 +1,183 @@
+
+@media only screen and (max-width: 1380px) {
+	.profil_foto4{
+		width: 200px;
+		height: 200px;
+	}
+	
+}
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+	.profil_foto{
+		width: 100px;
+		height: 100px;
+	}
+	.profil_foto2{
+		width: 65px;
+		height: 65px;
+	}
+	.grup_logo{
+		width: 150px;
+		height: 150px;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.profil_foto{
+		width: 100px;
+		height: 100px;
+	}
+	.profil_foto2{
+		width: 40px;
+		height: 40px;
+	}
+	.grup_logo{
+		width: 140px;
+		height: 140px;
+	}
+		.profil_foto4{
+		width: 170px;
+		height: 170px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+	}
+	.headerIcerik{
+		display: none;
+	}
+	i{
+		margin-right: 10px;
+	}
+	.fa{
+
+		font-size: 25px !important;
+	}
+	.search{
+		margin-right: 60px;
+	}
+	.cikisYap,.sifreDegistir{
+		padding: 5px;
+		font-size: 11px;
+	}
+	.kullaniciAdresi{
+		font-size: 12px;
+		margin-left: -15px;
+
+	}
+	.nav-tabs>li>a{
+		padding: 1px !important;
+		font-size: 11px;
+	}
+	.grup_logo{
+		width: 120px;
+		height: 120px;
+	}
+	.grupUyeleri{
+		font-size: 8px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.profil_foto{
+		width: 70px;
+		height: 70px;
+	}
+	.contentSol{
+		margin-top:120px;
+	}
+	.profil{
+		width: 120px;
+		height: 120px;
+		padding-top: 27px;
+	}
+	.profil span,.adSoyad{
+		display: none;
+	}
+	.profil_foto2{
+		width: 80px;
+		height: 80px;
+	}
+	.form-inline .form-control{
+		z-index: 0px;
+		border-radius: 0px !important;
+		margin-left: -20px;
+		margin-top: -12px;
+		height: 52px;
+	}
+	.navbar{
+		padding-bottom: 25px;
+	}
+	.navbar-nav .dropdown-menu{
+		margin-top: 22px;
+	}
+	.profil i {
+		display: inherit !important;
+		color: black;
+		margin-top: -25px;
+		font-size: 18px !important;
+	}
+	.profil span,.profil p{
+		display: none;
+	}
+	.profil a:hover{
+		border: 0px;
+		padding: 0px;
+		background-color: transparent !important;
+	}	.profil a{
+			border: 0px;
+			padding: 0px;
+			background-color: transparent !important;
+		}
+	.profil br{
+		display: none;
+	}
+	.fa-key{
+		float: right;
+		margin-right: -10px;
+	}
+	.baslik,.aramaSonuc{
+		margin-top: 130px !important;
+	}
+	
+}
+
+@media only screen and (max-width: 670px) {
+	i{
+		margin-right: -25px;
+	}
+}
+
+@media only screen and (max-width: 495px) {
+	.profil_foto{
+		width: 70px;
+		height: 70px;
+	}
+	.profil_foto2{
+		width: 50px;
+		height: 50px;
+		margin-left: -10px;
+	}
+	i{
+		margin-right: -35px;
+	}
+	.nav-tabs>li>a{
+		font-size: 6px;
+		padding: 4px !important;
+	}
+	span,p,div,a,label{
+		font-size: 10px !important;
+	}
+	.profile span{
+		font-size: 10px;
+	}
+	.duyuru img{
+		width: 240px;
+		height: 240px;
+	}
+	.navbar-nav .nav-link{
+		margin-left: 18px;
+	}
+
+}
